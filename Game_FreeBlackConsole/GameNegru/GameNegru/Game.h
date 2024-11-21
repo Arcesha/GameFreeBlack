@@ -14,6 +14,7 @@ public:
     void update();
     void render();
     void clean();
+    void run();
 
     bool running;
     int escape_press_count;

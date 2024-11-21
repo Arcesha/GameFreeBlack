@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5713FFA-30A5-4562-AC51-764768AC8F29}|GameNegru\\GameNegru.vcxproj|C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5713FFA-30A5-4562-AC51-764768AC8F29}|GameNegru\\GameNegru.vcxproj|solutionrelative:GameNegru\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5713FFA-30A5-4562-AC51-764768AC8F29}|GameNegru\\GameNegru.vcxproj|C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\GameNegru.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5713FFA-30A5-4562-AC51-764768AC8F29}|GameNegru\\GameNegru.vcxproj|solutionrelative:GameNegru\\GameNegru.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5713FFA-30A5-4562-AC51-764768AC8F29}|GameNegru\\GameNegru.vcxproj|C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5713FFA-30A5-4562-AC51-764768AC8F29}|GameNegru\\GameNegru.vcxproj|solutionrelative:GameNegru\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\Game.h",
+              "RelativeDocumentMoniker": "GameNegru\\Game.h",
+              "ToolTip": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\Game.h*",
+              "RelativeToolTip": "GameNegru\\Game.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T17:47:15.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\Game.cpp",
+              "RelativeDocumentMoniker": "GameNegru\\Game.cpp",
+              "ToolTip": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\Game.cpp*",
+              "RelativeToolTip": "GameNegru\\Game.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T17:10:25.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameNegru.cpp",
               "DocumentMoniker": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\GameNegru.cpp",
               "RelativeDocumentMoniker": "GameNegru\\GameNegru.cpp",
-              "ToolTip": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\GameNegru.cpp*",
-              "RelativeToolTip": "GameNegru\\GameNegru.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\GameFreeBlack\\Game_FreeBlackConsole\\GameNegru\\GameNegru\\GameNegru.cpp",
+              "RelativeToolTip": "GameNegru\\GameNegru.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-19T17:17:42.412Z",
               "EditorCaption": ""

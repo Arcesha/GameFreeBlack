@@ -1,7 +1,8 @@
-<<<<<<< Updated upstream
-﻿#include <iostream>
+#include <iostream>
+#include "Game.h"
 
-
-=======
-﻿
->>>>>>> Stashed changes
+int main() {
+	Game game;
+	Game run();
+	return 0;
+}
