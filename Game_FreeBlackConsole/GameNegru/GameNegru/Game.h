@@ -10,14 +10,10 @@ public:
     ~Game();
 
     bool init();
-    void handleEvents();
-    void update();
-    void render();
-    void clean();
     void run();
+    void render();
 
     bool running;
-    int escape_press_count;
 
 private:
     SDL_Window* window;
