@@ -12,6 +12,7 @@ public:
     bool init();
     void run();
     void render();
+    SDL_Renderer* getRenderer() const; // Добавлен геттер для рендерера
 
     bool running;
 
