@@ -1,6 +1,5 @@
 #include "Player.h"
 #include <iostream>
-#include <SDL_image.h>
 
 using namespace std;
 
@@ -8,9 +7,9 @@ Player::Player(int x, int y, SDL_Renderer* renderer)
     : renderer(renderer), rect{ x, y, 50, 50 } // Инициализируем rect и renderer, rect - размеры и позиция персонажа
 {
     // Загружаем изображение игрока
-    SDL_Surface* tempSurface = IMG_Load("player.bmp"); // Укажите правильное имя файла
+    SDL_Surface* tempSurface = SDL_LoadBMP("player.bmp"); // Укажите правильное имя файла
     if (!tempSurface) {
-        cerr << "Ошибка загрузки изображения игрока: " << IMG_GetError() << std::endl;
+        cerr << "Ошибка загрузки изображения игрока: " << SDL_GetError() << std::endl;
         texture = nullptr; // Устанавливаем текстуру в nullptr при ошибке
         return;  // Выходим из конструктора
     }

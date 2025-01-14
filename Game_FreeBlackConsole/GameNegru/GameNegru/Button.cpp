@@ -1,5 +1,4 @@
 #include "Button.h"
-#include <SDL_image.h>
 #include <iostream>
 
 Button::Button(int x, int y, int width, int height, const std::string& text, const std::string& imagePath)
@@ -13,14 +12,14 @@ Button::Button(int x, int y, int width, int height, const std::string& text, con
     texture = nullptr; // »значально текстура не задана
     if (!imagePath.empty()) {
         // ≈сли путь к изображению не пустой
-        SDL_Surface* surface = IMG_Load(imagePath.c_str()); // «агружаем изображение
+        SDL_Surface* surface = SDL_LoadBMP(imagePath.c_str()); // «агружаем изображение
         if (!surface) {
-            std::cerr << "Ќе удалось загрузить изображение: " << imagePath << " SDL_Error: " << IMG_GetError() << std::endl;
+            std::cerr << "Ќе удалось загрузить изображение: " << imagePath << " SDL_Error: " << SDL_GetError() << std::endl;
             return; // ≈сли загрузка не удалась, выходим из конструктора
         }
         texture = SDL_CreateTextureFromSurface(SDL_GetRenderer(SDL_GetWindowFromID(1)), surface);
         // —оздаем текстуру из загруженного изображени€
-        SDL_FreeSurface(surface); // ќсвобождаем поверхность после создани€ текстуры
+        SDL_FreeSurface(surface); // ќсв02обождаем поверхность после создани€ текстуры
         if (!texture) {
             std::cerr << "Ќе удалось создать текстуру из поверхности SDL_Error: " << SDL_GetError() << std::endl;
         }
